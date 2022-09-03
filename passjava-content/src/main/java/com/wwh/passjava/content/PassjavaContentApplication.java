@@ -1,13 +1,13 @@
-package com.wwh.passjavastudy;
+package com.wwh.passjava.content;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PassjavaStudyApplication {
+public class PassjavaContentApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PassjavaStudyApplication.class, args);
+        SpringApplication.run(PassjavaContentApplication.class, args);
     }
 
 }

@@ -1,13 +1,13 @@
-package com.wwh.passjavamember;
+package com.wwh.passjava.channel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PassjavaMemberApplication {
+public class PassjavaChannelApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PassjavaMemberApplication.class, args);
+        SpringApplication.run(PassjavaChannelApplication.class, args);
     }
 
 }
