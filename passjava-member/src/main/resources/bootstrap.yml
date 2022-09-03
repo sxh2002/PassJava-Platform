@@ -15,4 +15,4 @@ spring:
     name: passjava-member
 
 server:
-  port: 10001
+  port: 10000
