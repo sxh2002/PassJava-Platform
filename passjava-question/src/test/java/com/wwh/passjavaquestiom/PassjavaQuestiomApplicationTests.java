@@ -1,7 +1,7 @@
 package com.wwh.passjavaquestiom;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.wwh.passjava.question.PassjavaQuestiomApplication;
+import com.wwh.passjava.question.PassjavaQuestionApplication;
 import com.wwh.passjava.question.entity.TypeEntity;
 import com.wwh.passjava.question.service.TypeService;
 import org.junit.jupiter.api.Test;
@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
-@SpringBootTest(classes = PassjavaQuestiomApplication.class)
+@SpringBootTest(classes = PassjavaQuestionApplication.class)
 class PassjavaQuestiomApplicationTests {
     @Autowired
     TypeService typeService;
