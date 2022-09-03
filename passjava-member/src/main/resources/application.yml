@@ -1,13 +1,12 @@
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/passjava_ums?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-    username: root
-    password: "0523"
-  profiles:
-    active: dev #开发环境
-mybatis-plus:
-  mapper-locations: classpath:/mapper/**/*.xml
-  global-config:
-    db-config:
-      id-type: auto
+#配置在nacos中了
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/passjava_ums?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: "0523"
+#mybatis-plus:
+#  mapper-locations: classpath:/mapper/**/*.xml
+#  global-config:
+#    db-config:
+#      id-type: auto
